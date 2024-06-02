@@ -6,7 +6,10 @@ import Sidebar from '@/components/Sidebar'
 
 export const metadata: Metadata = {
   title: 'YOOM',
-  description: 'A workspace for your team, powered by Stream Chat and Clerk.',
+  description: 'Video calling App',
+  icons: {
+    icon: '/icons/logo.svg',
+  },
 }
 
 const HomeLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
